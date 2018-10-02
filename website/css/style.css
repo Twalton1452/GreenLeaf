@@ -1,0 +1,158 @@
+body{
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0px;
+}
+
+.clr{
+  clear:both;
+}
+
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color: lightgreen;
+  color: #fff;
+}
+#main-header .block{
+  padding: 0;
+  float: left;
+  width: auto;
+}
+#main-header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar{
+  background-color: #333;
+  color: #fff;
+}
+#navbar ul{
+  padding: 0;
+  list-style: none;
+}
+#navbar li{
+  display: inline;
+}
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase{
+  background-image: url("../images/bg.png");
+  background-position: center;
+  min-height: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#showcase h1{
+  color: #FFF;
+  font-size: 40px;
+  line-height: 1.6em;
+  padding-top: 20px;
+}
+
+#main{
+  font-size: 40px;
+  float: left;
+  width: 70%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+#main p{
+  font-size: 16px;
+  font-weight: lighter;
+}
+#testimonial{
+  font-size: 40px;
+  float: right;
+  width: 70%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+#testimonial p{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+}
+#testimonial h4{
+  font-size: 16px;
+
+}
+#side-bar1{
+  float: right;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#side-bar2{
+  float: left;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#side-bar2 h3{
+  text-align: left;
+}
+#side-bar2 ul{
+  padding: 0px 20px;
+}
+#side-bar2 h3{
+  text-align: right;
+}
+#side-bar2 p{
+  text-align: right;
+}
+.block{
+  float:left;
+  width: 50%;
+  padding: 10px;
+  box-sizing:border-box;
+}
+#main-footer{
+  background: darkgrey;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media(max-width:800px){
+  #main{
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  #side-bar1{
+    width: 100%;
+    float: none;
+  }
+  #side-bar2{
+    width: 100%;
+    float: none;
+  }
+  #testimonial{
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  .block{
+    width: 100%;
+    float: none;
+  }
+}
